@@ -1,0 +1,7 @@
+INSERT INTO `kirjasto`.`teos_tekija` (`tekijaId`, `teosId`) VALUES ('1', '1');
+INSERT INTO `kirjasto`.`teos_tekija` (`tekijaId`, `teosId`) VALUES ('1', '2');
+INSERT INTO `kirjasto`.`teos_tekija` (`tekijaId`, `teosId`) VALUES ('2', '2');
+INSERT INTO `kirjasto`.`kirja` (`kirjaId`, `teosId`, `luokitus`) VALUES ('1', '1', 'Historia');
+INSERT INTO `kirjasto`.`kirja` (`teosId`, `luokitus`) VALUES ('1', 'Historia');
+INSERT INTO `kirjasto`.`kirja` (`teosId`, `luokitus`) VALUES ('2', 'Kaunokirjallisuus');
+INSERT INTO `kirjasto`.`lainaus` (`lainausId`, `lainausPVM`, `palautusPVM`, `asiakasId`, `kirjaId`, `palautettu`) VALUES ('1', '2023-5-20', '2023-6-20', '1', '2', '0');
